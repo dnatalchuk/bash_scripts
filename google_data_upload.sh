@@ -5,9 +5,9 @@
 
 
 # MySQL creadentials: might be adjusted
-MYSQL_USER="strkd_dscr"
-MYSQL_PASS="inV!n0v3r1t@s"
-MYSQL_HOST="manager.de.eu.support.strikead.com"
+MYSQL_USER="xxx"
+MYSQL_PASS="xxx"
+MYSQL_HOST="xxx"
 
 # Script variables definition
 ssp_name='google'
