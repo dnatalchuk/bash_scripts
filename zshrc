@@ -99,14 +99,6 @@ source $ZSH/oh-my-zsh.sh
 # COMMAND LINE ALIASES:
 ####################################################################################################
 alias ll="ls -la"
-####################################################################################################
-# ACCESS TO HOSTS:
-####################################################################################################
-alias jump_pp1="ssh brs-ncde-linux-jump-01.nonprod.williamhill.plc"
-alias jump_PRD="ssh prdxjmp27jmp001.prod.williamhill.plc"
-alias aws_dev_bastion="ssh dnatalchuk@bastions.cloud-services.aws-eu-west-1.dev.williamhill.plc"
-alias aws_prod_bastion="ssh dnatalchuk@bastions.cloud-services.aws-eu-west-1.prod.williamhill.plc"
-alias jump_cxp="ssh jump.cxp.williamhill.plc"
 
 ####################################################################################################
 # GIT aliases
