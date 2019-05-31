@@ -128,9 +128,14 @@ function gclon() {
 # DOCKER ALIASES
 ####################################################################################################
 alias dim='docker images'
+alias dlist="sudo docker container list"
 
 function drun() {
    sudo docker run -ti $1 /bin/bash
+}
+
+function dstop() {
+   sudo docker container stop $1
 }
 
 function dexec() {
