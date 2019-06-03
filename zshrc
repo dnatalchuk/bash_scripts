@@ -153,6 +153,9 @@ function dbuild {
 ####################################################################################################
 # KUBERNETES ALIASES
 ####################################################################################################
+alias mks='minikube start'
+alias mkst='minikube stop'
+alias mkip='minikube ip'
 alias k='kubectl'
 alias kg='kubectl get'
 alias kgp='kubectl get pods'
