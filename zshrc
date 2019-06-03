@@ -149,3 +149,18 @@ function drm() {
 function dbuild {
    docker build -t $1 .
 }
+
+####################################################################################################
+# KUBERNETES ALIASES
+####################################################################################################
+alias k='kubectl'
+alias kg='kubectl get'
+alias kgp='kubectl get pods'
+alias kgpjson='kubectl get pods -o=json'
+alias kgpn='kubectl get pods --namespace'
+alias krm='kubectl delete'
+alias krmf='kubectl delete -f'
+alias krming='kubectl delete ingress'
+alias ka='kubectl apply -f'
+alias klo='kubectl logs -f'
+alias kex='kubectl exec -i -t'
